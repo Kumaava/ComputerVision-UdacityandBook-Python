@@ -1,8 +1,9 @@
-## Computer Vision (Udacity MOOC)
+# Introduction to Computer Vision (UDACITY using Matlab)
 # Learning Computer and DIP - 
-# Introduction to Computer Vision ( UDACITY using Matlab or Ocatve)
+
 Apr 2017 – Present
-Project descriptionLinks : 
+
+Project descriptionLinks : https://github.com/Kumaava/Computer-Vision-Udacity-
 http://www.pyimagesearch.com ( best to start with)
 http://docs.opencv.org/master/d9/df8/tutorial_root.html
 http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf
