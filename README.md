@@ -1,5 +1,5 @@
 # Introduction to Computer Vision (UDACITY using Matlab)
-# Learning Computer and DIP - 
+# Learning Computer Vision and DIP - 
 
 Apr 2017 – Present
 
