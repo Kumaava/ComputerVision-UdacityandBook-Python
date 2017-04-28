@@ -10,6 +10,11 @@ Impluse Noise ; random occurences of white pixels.
 Gaussian Noise ; Variations in intensity drawn from a Guassian Normal Distribution. 
 noise = randm(size(img)).* sigma ; 
 output = img + noise ; 
+----------------- 
+Image Difference : Unit 8 is [0,255] and in absolute difference the value gets truncated (i.e. -ve value is 0)
+-----------------
+sigma(σ) increases _ Gaussian Noise Increases. (image added)
+-----------------
 
 
 
