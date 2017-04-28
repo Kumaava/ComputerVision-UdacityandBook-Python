@@ -6,5 +6,17 @@ The noise added to each pixel is done independently (thus taking avrg is the rig
 Weighted moving average ; the more nearby a pixel is the more weight it will have(non-uniform weight). 
 -To do the moving average computation, the number of weights should be odd- makes it easier to have a 
 middle value. 
-- helps get a normalised distrbution of pixels (image added)
+- helps get a normalised distrbution of pixels (smooth) (image added)
 the math on which moving average is based on is called correlation filtering (with Uniform weights)
+
+
+------------
+Correlation filtering  :  Uniform and non unifrom weights (updated in image).
+The filter "kernel or mask" H[u,v] is the matrix of weights in linear combination. 
+
+Averaging filter =  F(x,y) * H(u,v) = G(x,y) (Image added) - a box filter 
+is used that is a sqaure matrix of 9(row * col) each 1. [used for smoothing]
+
+----------------
+
+
