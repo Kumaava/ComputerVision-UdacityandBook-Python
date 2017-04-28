@@ -7,3 +7,4 @@ Weighted moving average ; the more nearby a pixel is the more weight it will hav
 -To do the moving average computation, the number of weights should be odd- makes it easier to have a 
 middle value. 
 - helps get a normalised distrbution of pixels (image added)
+the math on which moving average is based on is called correlation filtering (with Uniform weights)
