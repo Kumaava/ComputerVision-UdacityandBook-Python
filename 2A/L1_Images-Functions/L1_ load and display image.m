@@ -1,24 +1,1 @@
-
-% Load and display an image
-
-img = imread('dolphin.png');
-imshow(tablet);
-
-%Image size 
-disp(size(img));
-
-% Image Class or data type 
-disp(class(img));
-
-
-%--------------
-% IMAGE DIFFERENCE
-
-k = imread('IMG_5456.JPG');
-L = imread('IMG_5459.JPG');
-disp(img)
-
-diff = k - L ; 
-imshow(diff) ; 
-
-
+% Load and display an imageimg = imread('IMG_5456.JPG');%Image size disp(size(img));% Image Class or data type disp(class(img));%--------------% Image differencek = imread('IMG_5456.JPG');L = imread('IMG_5459.JPG');disp(img)diff = k - L ; imshow(diff) ; abs_diff = abs(k - L );imshow(abs_diff) %-----------------Generate Gaussian noisenoise = randn([1 10000]);[n x] = hist(noise, linspace(-3, 3, 21));disp([x; n]);TODO: Try generating other kinds of random numbers.How about a 2D grid of random Gaussian values?noise1 = randn([2 10]);[n x] = hist(noise1, linspace(-3, 3, 21));plot(x, n);
