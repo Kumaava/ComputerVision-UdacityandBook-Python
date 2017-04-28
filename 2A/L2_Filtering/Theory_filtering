@@ -18,5 +18,9 @@ Averaging filter =  F(x,y) * H(u,v) = G(x,y) (Image added) - a box filter
 is used that is a sqaure matrix of 9(row * col) each 1. [used for smoothing]
 
 ----------------
+Guassian filter ; higher in the middle, fall off at the corners and even lower at the edges (image added)
+Nearest Neighbour pixels have the most influence. 
+DOING A SMOOTHING PROPORTIONAL TO THE EQUATION - isotropic gaussian (image Updated)
 
+NOTE : With a non-gaussian filter : we get sharp edges and with Gaussian you get smooth blur image. 
 
