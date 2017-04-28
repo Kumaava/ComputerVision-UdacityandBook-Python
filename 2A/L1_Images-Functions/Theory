@@ -1,8 +1,9 @@
 Noise is just another function in the Image that is combined with another function to get another function:
 I'(x, y) = I(x,y) + N(x,y)
 
-Types - 
+Noise is random things scaled by sigma. 
 
+Types - 
 Salt and pepper ; random occurences of black and white pixels.
 
 Impluse Noise ; random occurences of white pixels.
