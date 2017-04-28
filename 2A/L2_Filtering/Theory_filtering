@@ -30,3 +30,5 @@ Sigma is most important - it defines the blur kernels scale with respect to the 
 Altering the normalization coefficient does not effect the blur, only the brightness. 
 
 Sigma - one is over space(in filtering) and one is over intensity(in noise addition). 
+
+They both called sigma as they both use a normal distribution. 
