@@ -26,3 +26,5 @@ NOTE : With a non-gaussian filter : we get sharp edges and with Gaussian you get
 Sigma with 2,5 can have the same size of filter & bigger sigma is better ( more smooth)
 --------------- 
 
+Sigma is most important - it defines the blur kernels scale with respect to the image. 
+Altering the normalization coefficient does not effect the blur, only the brightness. 
