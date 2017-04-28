@@ -1,1 +1,0 @@
-% Load and display an imageimg = imread('dolphin.png');imshow(tablet);%Image size disp(size(img));% Image Class or data type disp(class(img));
