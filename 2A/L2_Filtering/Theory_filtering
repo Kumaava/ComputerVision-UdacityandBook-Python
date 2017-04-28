@@ -1,0 +1,9 @@
+Averaging Assumptions - 
+The true value of pixel is equal to the value of pixels nearby. 
+The noise added to each pixel is done independently (thus taking avrg is the right thing to do). 
+----------------------
+
+Weighted moving average ; the more nearby a pixel is the more weight it will have(non-uniform weight). 
+-To do the moving average computation, the number of weights should be odd- makes it easier to have a 
+middle value. 
+- helps get a normalised distrbution of pixels (image added)
