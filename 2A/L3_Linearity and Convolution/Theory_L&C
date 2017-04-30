@@ -5,7 +5,7 @@ Additivity
 Multiplicative scaling (because of these values, filtering processes are going to be linear).
 -----
 
-Impulse of function response
+Impulse of function response  ( When your filter with an impulse, you get no change)
 Impulse - building block of function: a small signal whose area is 1. 
 Impulse response helps us to describe the function of the black box or function. 
 When applying filter with intensity 1,for example, the image is with the filter flipped reverse and updown flip also.   
@@ -35,7 +35,10 @@ method
 - wrap around (fourier analysis - the image continues and wraps around)
 - copy edge - just copy out the same value form a limit.  
 - reflect across edge ( symmetric): reflects across the edge. (all image updated)
+Reflect method of handling the boundary conditions is good as the created imagery has the same statistics as the original 
+image. 
 
+---
 
 
 
