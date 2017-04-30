@@ -1,1 +1,17 @@
 
+Linearity of a function
+An operator H is linear if : 
+Additivity
+Multiplicative scaling (because of these values, filtering processes are going to be linear).
+
+-----
+
+Impulse of function response
+Impulse - building block of function: a small signal whose area is 1. 
+Impulse response helps us to describe the function of the black box or function. 
+When applying filter with intensity 1,for example, the image is with the filter flipped reverse and updown flip also.   
+
+-----
+
+
+
