@@ -28,6 +28,14 @@ this is called separability.
 we get the order of magnitude(imp.)
 ----
 
+Boundary Issues : full, same, valid (types, image updated)
+
+method
+- clip filter (assuming the boundary is black)
+- wrap around (fourier analysis - the image continues and wraps around)
+- copy edge - just copy out the same value form a limit.  
+- reflect across edge ( symmetric): reflects across the edge. (all image updated)
+
 
 
 
