@@ -3,7 +3,6 @@ Linearity of a function
 An operator H is linear if : 
 Additivity
 Multiplicative scaling (because of these values, filtering processes are going to be linear).
-
 -----
 
 Impulse of function response
@@ -11,6 +10,16 @@ Impulse - building block of function: a small signal whose area is 1.
 Impulse response helps us to describe the function of the black box or function. 
 When applying filter with intensity 1,for example, the image is with the filter flipped reverse and updown flip also.   
 
+Suppose our kernel is size M*M and image as size N*N, how many multiplies to filter the whole image?
+M*M*N*N
+-----
+
+Correlation vs Convolution (linear operators) - commutative, associative, Identity and Differentiation. 
+Correlation is when applying the filter and in covolution your image is flipped updown and left right.
+or in Convolution: you flip your kernel before applying and updating it. (image updated)
+
+Shift invariant if required for the convolution process, Shift invariant behaves everywhere the same way i.e. the value 
+depends on pattern in the neighborhood, not the position of the neighborhood. 
 -----
 
 
