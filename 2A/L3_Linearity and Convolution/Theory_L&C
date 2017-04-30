@@ -6,6 +6,7 @@ Multiplicative scaling (because of these values, filtering processes are going t
 -----
 
 Impulse of function response  ( When your filter with an impulse, you get no change)
+and shifting the impulse gets a shifted function. 
 Impulse - building block of function: a small signal whose area is 1. 
 Impulse response helps us to describe the function of the black box or function. 
 When applying filter with intensity 1,for example, the image is with the filter flipped reverse and updown flip also.   
@@ -40,7 +41,7 @@ image.
 
 ---
 
-
+Median Filter : remove noise by blurring the image. 
 
 
 
