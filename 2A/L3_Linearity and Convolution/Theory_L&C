@@ -22,5 +22,14 @@ Shift invariant if required for the convolution process, Shift invariant behaves
 depends on pattern in the neighborhood, not the position of the neighborhood. 
 -----
 
+Computational complexity and separability (linearly seperable filter)
+When making a kernel for convolving a row vector by a column vector and also they are linearly separable,
+this is called separability. 
+we get the order of magnitude(imp.)
+----
+
+
+
+
 
 
