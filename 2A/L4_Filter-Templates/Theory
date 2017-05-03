@@ -1,1 +1,13 @@
+1D Correlation
 
+- Normalised correlation between filter and Signal for find the pattern (similar to 'find' function in python String Theory). 
+
+Template Matching : normxcorr2 
+
+Where's Waldo?  - template matching in 2D images 
+
+what is it good for? - 
+
+Non-identical pattern matching - thus using filters as templates. 
+
+Sometimes we may not have a good template and thus using normalized pattern matching is not very good. 
