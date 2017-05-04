@@ -1,1 +1,44 @@
 what are the things to capture in an image. 
+
+An edge is a place of rapid change in the image intensity function. 
+Edges are important : 
+surface normal discontinuity
+depth discontinuity
+surface color discontinuity
+Illumination discontinuit
+
+Derivatives And Edges : 
+
+differential operator : When applied to an Image, returns some derivative, 
+-these operator are masks/kernels that compute image gradient function &
+-threshold the gradient function to select the edge pixel.
+
+Gradient : it is a vector that is made up of derivates.
+Magnitude : how quickly things are getting brighter 
+
+when Image gradient is zero - image is constant, at maximum or at a minimum. 
+
+-----------------
+
+To find edges we require partial derivative that can take steps in specific directions and also require
+multivariate calculus to check if the change is in x or y direction. 
+for as we make gradients and we require a mask or kernel that implement these gradients. 
+
+the Discrete gradient : A good operator should have a middle value to find the symmetry.  
+
+Sobel Operator : scale value by dividing it by 8. 
+Gardient magnitude
+Thershold gradient magnitude.
+
+Different operators : 
+Sobel
+Prewitt
+Roberts
+
+Correlation preserves the intended directionality of gradients. 
+"imfilter" command(used in code used bydefault correlation so if you want to use convolution (code explicitly). 
+
+Reducing the noise will help get the derivative peak after implimenting the derivative operator. 
+
+Associative and commutative property help take the derivative of the kernel and then apply to the signal. 
+
