@@ -1,0 +1,1 @@
+%Gradient gray filt = fspecial("sobel");img = imread("saturn.jpeg");imshow(img)outim = imfilter(double(img), filt);imagesc(outim)colormap gray;
