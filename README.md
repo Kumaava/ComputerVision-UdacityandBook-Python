@@ -12,4 +12,4 @@ https://in.mathworks.com/products/computer-vision/code-examples.html
 This course provides an introduction to computer vision including fundamentals, methods for application and machine learning classification.
 
 
-I found a book on COMPUTER VISION using PYTHON so, this course is on hold for a while, i'll continue computer vision from scratch using Python using the book in this repository only. 
+I found a book on COMPUTER VISION using PYTHON by Jan Erik Solem, so, this course is on hold for a while and I'll continue  learning computer vision from scratch using Python using the book and updating this repository only.
