@@ -17,5 +17,5 @@ I found a book on COMPUTER VISION using PYTHON by Jan Erik Solem, so, this cours
 <img width="996" alt="contour plot" src="https://user-images.githubusercontent.com/11708565/26973459-5a01fcd8-4d34-11e7-8c56-f923cf7c1648.png">
 
 
-###making a normalized hsitogram and computing X , Y derivative and  Gardient Magnitude. 
+**Making a normalized hsitogram and computing X , Y derivative and  Gardient Magnitude**
 <img width="959" alt="normalised hist" src="https://user-images.githubusercontent.com/11708565/26973560-c08763da-4d34-11e7-9d86-81a12308b806.png">
